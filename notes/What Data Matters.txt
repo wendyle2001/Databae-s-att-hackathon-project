@@ -1,0 +1,10 @@
+-Hackathon Project ideas
+
+
+Data: 
+	-Latency
+	-Packet Loss
+	-Upload/DOwnload Speeds
+	-Bandwidth
+	-Reliability
+	-Coverage Area
