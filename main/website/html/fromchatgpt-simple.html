@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Simple Webpage</title>
+    <style>
+        .more-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .photo {
+            max-width: 100%;
+            height: auto;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            position: relative;
+            top: 0;
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: right;
+
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            margin-top: 80px;
+            text-align: left;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">AT&T</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <p>Welcome to the landing page. Enjoy your stay.
+        </p>
+        <p>Here at AT&T, our mission is to provide you with excellent service. As the demand for ever faster internet
+            grows, we find ourseleves needing to deliever bold and new solutions. We are happy to announce 5G and Fiber
+            Optics as our latest tool. Keep scrolling to find out more. </p>
+        <header>What is 5G?</header>
+        <p>5G is the latest and greatest wireless communications medium. Click <a href="">here</a>to visit our
+            knowledge hub and learn more about this emerging technology. </p>
+        <header>What is Fiber optic?</header>
+        <p>Fiber Optic is the latest and greatess wired communications medium. Click <a href="">here</a> to visit our
+            knowledge hub and learn more about this emerging technology. </p>
+
+    </div>
+    <div class="map">
+        <!--this is where the map will be. -->
+    </div>
+    <div class="more-grid">
+        <img src="../assets/stockimage-numberOne.png" class="photo" alt="Photo 1">
+        <img src="../assets/2.jpg" class="photo" alt="Photo 2">
+        <img src="../assets/3.jpg" class="photo" alt="Photo 3">
+        <img src="../assets/4.jpg" class="photo" alt="photo 4">
+    </div>
+</body>
+
+</html>
