@@ -42,7 +42,113 @@
     <p class="filler">THis is where the Map will be. </p> <!--this is where the map will be. -->
 </div>
 <div id="survey">
-    <p class="filler">This is where the Survey will be. </p>
+    <html>
+    <head>
+        <title>AT&T Consumer 5G Form</title>
+        <link rel = "stylesheet" href = "styles.css">
+        
+        <style>
+            body {
+                font-family: ATTFont;
+                src: url(ATTAleckSans_Rg.tff);
+            }
+            h1{
+                font-family: ATTFont;
+                color: #009edb;
+            }
+        </style>
+    </head>
+
+    <h1>
+        AT&T Consumer 5G Form
+    </h1>
+    <body>
+        <p>
+            5G is the fifth generation of cellular networks and the successor of the 4G network.<br>
+            5G is about 100 times faster than 4G, and opens up countless opportunities in the Internet of Things. <br>
+            5G technology can change the world for the better through safety and sustainability. <br>
+            5G allows numerous technological advances such as Virtual Reality, enabling connective vehicles,
+            and enhanced experiences with video and gaming. <br>
+
+        </p>
+        <div>
+            <form>
+                <p>Do you have access to 5G?</p>
+                <input type="radio" id="yes" name="5G" value="yes">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="5G" value="no">
+                <label for="no">No</label><br>
+                <input type="radio" id="not_sure" name="5G" value="not_sure">
+                <label for="not_sure">Not sure</label><br>
+              </form>
+        </div>
+
+        <div>
+            <form>
+                <p>How often do you utilize 5G technology? (VR, Bluetooth, connective vehicles, etc)</p>
+                <input type="radio" id="Daily" name="5G" value="Daily">
+                <label for="Daily">Daily</label><br>
+                <input type="radio" id="Sometimes" name="5G" value="Sometimes">
+                <label for="Sometimes">Sometimes</label><br>
+                <input type="radio" id="Almost never" name="5G" value="Almost never">
+                <label for="Almost never">Almost never</label><br>
+              </form>
+        </div>
+
+        <div>
+            <form>
+                <p>Have you had any technical issues with 5G and/or fiber services?</p>
+                <input type="radio" id="Constantly" name="5G" value="Constantly">
+                <label for="Constantly">Constantly</label><br>
+                <input type="radio" id="Occasionally" name="5G" value="no">
+                <label for="Occasionally">Occasionally</label><br>
+                <input type="radio" id="Rarely" name="5G" value="not_sure">
+                <label for="Rarely">Rarely</label><br>
+              </form>
+        </div>
+
+        <div>
+            <form>
+                <p>Do you feel that 5G and fiber service technology has improved your quality life?</p>
+                <input type="radio" id="Significantly" name="5G" value="Significantly">
+                <label for="Significantly">Significantly</label><br>
+                <input type="radio" id="Somewhat" name="5G" value="Somewhat">
+                <label for="Somewhat">Somewhat</label><br>
+                <input type="radio" id="Not significantly" name="5G" value="Not significantly">
+                <label for="Not significantly">Not significantly</label><br>
+              </form>
+        </div>
+
+        <div>
+            <form>
+                <p>In what additional areas outside of your home city and state would you like to see 5G technology to be expanded?</p>
+                <label for="myText">Enter communities, cities, and/or states</label>
+                <br>
+                <textarea id="myText" name="myText" rows = "4" cols = "50"></textarea>
+              </form>
+        </div>
+        <br>
+
+        <div>
+            <h4>Thank you! We appreciate your feedback</h4>
+            <h7>Please rate the quality of this survey from 1 - 5 (1 = needs improvement, 5 = insightful)</h7>
+            <br>
+            <input type="text" id="myText" name="myText">
+
+
+
+        </div>
+
+        <Button onclick = "Submit()" >Submit</Button>
+        <script>
+            function Submit(){
+                window.open("https://www.example.com", "_blank");
+            }
+        </script>
+
+
+    </body>
+</html>
 </div>
 
 <p style="text-align: center;">MORE</p>
